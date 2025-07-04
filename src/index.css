@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@theme {
+  --color-regal-blue: #fff7f0;
+  --color-primary-color: #25416d;
+}
+
+text {
+  color: #fff7f0;
+}
