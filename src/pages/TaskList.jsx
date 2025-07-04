@@ -11,7 +11,7 @@ const TaskList = () => {
     let inputvalue = inputRef.current.value.trim();
 
     if (inputvalue === "") {
-      alert("Please enter some value");
+      alert("Please enter some value..");
       return;
     }
 
@@ -26,7 +26,7 @@ const TaskList = () => {
       if (!task.includes(inputvalue)) {
         settask([...task, inputvalue]);
       } else {
-        alert("Please enter a different value");
+        alert("Please enter a different value..");
         return;
       }
     }
